@@ -4,11 +4,11 @@ let pokemonList=[
     {name:"Zekrom", height: 2.9, type: ["dragon", "electric"]}
 ];
 
-for (let i=0; i < pokemonList.length; i++){
-        document.write(pokemonList[i].name + " Height: " + pokemonList[i].height)
-        document.write("<br>")
-    }
-    if (pokemonList.height >2.8) {
-        document.write("(pokemonList[i].name " + pokemonList[i].height + ") - Wow that's big!");
+for (let i=0; i < pokemonList.length; i++) {
+    if (pokemonList[i].height >2.8) {
+        document.write(pokemonList[i].name + " Height: " + pokemonList[i].height + " - Wow that's big!");
+    } else {
+        document.write(pokemonList[i].name + " Height: " + pokemonList[i].height) 
+    }  
+    document.write("<br>")
 }
-    
