@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 40px;
+    color: #1e2727;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+body {
+    background-color: lightpink;
+}
