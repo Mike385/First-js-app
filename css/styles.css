@@ -3,12 +3,23 @@ h1 {
     font-weight: 400;
     font-size: 40px;
     color: #1e2727;
-    background-color: lightblue;
+    background-color: rgb(34, 31, 201);
     text-align: center;
     margin-top: auto;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 body {
-    background-color: lightpink;
+    background-color: rgb(76, 171, 209);
 }
+
+.pokemon-button {
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(199, 38, 73);
+    font-family: 'Helvetica';
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
