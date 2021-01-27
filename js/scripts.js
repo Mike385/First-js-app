@@ -29,7 +29,7 @@ function add(pokemon) {
 
 function addlistItem(pokemon) {
   let button = document.createElement('button');
-  button.addEventListener('click', function (pokemon) {
+  button.addEventListener('click', function () {
     console.log(pokemon);
   });
   let listItem = document.createElement('li');  
